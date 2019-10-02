@@ -1,0 +1,249 @@
+/* NOTE: Submitted to Bootcamp */
+
+
+/* Main/Universal */
+body{
+    background-image: url(../images/concrete-texture.png);
+    margin: auto;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+/* header stylings & h tags */
+header {
+
+    background-color: white;
+    height: 80px;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+}
+
+.header-color{ 
+    float:left;
+    margin-left: 145px; 
+    background: #4aaaa5;
+    height: 80px; 
+    width: 200px;
+    text-align: center;
+    margin-top: 0;     
+}
+
+.header-color-form{ 
+    float:left;
+    margin-left: 275px; 
+    background: #4aaaa5;
+    height: 80px; 
+    width: 200px;
+    text-align: center;
+    margin-top: 0;     
+}
+
+h1 {
+    float: left;
+    margin-left:-150px;
+    color: white;
+   
+    
+}
+
+h2 {
+    Padding-top: 40px;
+    padding-left: 30px;
+    color:#4aaaa5;
+    margin-top: 0;
+    font-size: 28px;
+}
+
+/* nav menus styling */
+
+ul {
+    margin-top: 0;
+    padding-top: 30px;
+    margin-left: 400;
+    padding-left: 830px;
+}
+
+ul li {
+    display: inline;  
+    font-family: sans-serif;
+    
+}
+
+.ul-form {
+    margin: 0;
+    width: 400px;
+    padding-top: 30px;
+    padding-left: 700px;
+    list-style-type: none;  
+}
+
+li a {
+    text-decoration: none;
+    color: #777777;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#li-border {
+    border-left: solid 1px lightgrey;
+    border-right: solid 1px lightgrey;
+}
+
+/* main content areas */
+
+.main{
+    background-color: white;
+    width: 960px;
+    height: 520px;
+    border: #dddddd;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    border-width: 5px;    
+}
+
+.main-form{
+    background-color: white;
+    width: 700px;
+    height: 620px;
+    border: #dddddd;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    border-width: 5px;    
+}
+
+/* homepage styling */
+#face-pic{
+    float: left;
+    width: 200px;
+    padding-left:25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom:25px;
+}
+
+p {
+    margin:25px;
+    line-height: 30px;
+    color: #777777;
+    font-family: sans-serif;
+}
+
+.paragraph {
+margin-top: 50px; 
+color: #777777;
+}
+
+/* contact form styling */
+form {
+    padding: 25px;
+    font-family: sans-serif;
+    color: #777777;
+    margin-top: 10px;
+    
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    width: 645px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    
+}
+
+input:focus {
+    outline: none;
+    border:1px solid #4aaaa5;
+    box-shadow: 0 0 10px #4aaaa5;
+}
+
+textarea {
+    resize: none;
+    width: 645px;
+    height: 200px;
+    margin-top: 5px;
+}
+textarea:focus {
+    outline: none;
+    border:1px solid #4aaaa5;
+    box-shadow: 0 0 10px #4aaaa5;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    margin-top: 25px;
+    padding: 15px 32px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    font-size: 14px;
+}
+
+.button:hover {
+    opacity: .5;
+    border: 1px solid black;
+}
+
+/* portfolio page styling */
+
+/* NOTE: was unable to solve text/color overlays on portfolio images in time */
+
+.main-port{
+    background-color: white;
+    width: 700px;
+    height: 900px;
+    border: #dddddd;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    border-width: 5px;    
+}
+
+.port-grid {
+    margin: 25px;
+}
+
+/* decorations & dividers */
+#hr1{
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 3px;
+    display: block;
+    background-color: lightgray;
+    border: none;
+    opacity: .5;
+ }
+
+/* footer styling */
+
+footer {
+   margin: auto;
+   background-color:#666666;
+   height: 80px;
+   text-align: center;
+   
+   
+}
+
+#foot-text {
+    color: #e9e9e9;
+    font-size: 12px;
+}
+
+#hr2 {
+    background-color: #4aaaa5;
+    height: 5px;
+    margin: 0;
+    border: none;
+}
